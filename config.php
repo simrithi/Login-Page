@@ -10,7 +10,7 @@ if (file_exists($env_file)) {
 
 $servername = $env['DB_SERVERNAME'] ?? 'localhost';
 $username = $env['DB_USERNAME'] ?? 'root';
-$password = $env['DB_PASSWORD'] ?? 'mysql@1108';
+$password = $env['DB_PASSWORD'];
 $database = $env['DB_NAME'] ?? 'users_db';
 
 // Create connection
