@@ -1,19 +1,65 @@
-# Secrets & Config
+# Environment & Secrets
 .env
-config.php
+.env.local
+.env.*.local
+config.php          # If it contains DB password
+secrets.txt
+api_keys.txt
 
-# OS
+# Database
+*.sql
+*.db
+*.sqlite
+database_backup/
+
+# PHP
+composer.lock       # If using Composer
+vendor/             # Composer dependencies
+
+# XAMPP/Server specific
+.htaccess.bak
+*.pem
+ssl/
+
+# OS & System
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# Editor
+# Editor/IDE
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
 
 # Logs
 *.log
+logs/
+error_log
+access_log
 
-# Temp files
+# Cache/Temporary
 *.tmp
+.cache/
 temp/
+tmp/
+session/
 uploads/temp/
+
+# Build
+dist/
+build/
+
+# Node (if using with Node tools)
+node_modules/
+npm-debug.log
