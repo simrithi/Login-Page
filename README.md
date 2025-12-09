@@ -11,13 +11,8 @@ Functions:
 
 3.If the password or email entered is wrong  then the access is denied.Authorization technique comes into play here and data is cross-checked to allow authorization and access.
 
-4.If the user doesn't have an account then they can choose the register option 
-
-
+4.If the user doesn't have an account then they can choose the register option .
 5. In the Register window, they can enter name, email , set password and choose their role(admin or user).Later it would navigate them to respective pages.
-
 
 FUTURE IMPROVEMENTS:
 Can suggest user to create a stronger password and also provide user ID automatically for better safety. Will implement that and entering puzzles for checking robots soon.
-
-
