@@ -1,0 +1,19 @@
+# Secrets & Config
+.env
+config.php
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+temp/
+uploads/temp/
